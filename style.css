@@ -1,7 +1,3 @@
-/* ============================= */
-/* GLOBAL RESET */
-/* ============================= */
-
 * {
   margin: 0;
   padding: 0;
@@ -15,19 +11,12 @@ html, body {
   overflow-x: hidden;
 }
 
-/* ============================= */
-/* MAIN LAYOUT */
-/* ============================= */
-
 #main {
   width: 100%;
   height: 100vh;
   position: relative;
 }
 
-/* ============================= */
-/* BACKGROUND IMAGES */
-/* ============================= */
 
 #back {
   width: 100%;
@@ -40,20 +29,12 @@ html, body {
   object-fit: cover;
 }
 
-/* ============================= */
-/* TOP LAYER */
-/* ============================= */
-
 .top {
   pointer-events: none;
   position: absolute;
   inset: 0;
   z-index: 10;
 }
-
-/* ============================= */
-/* WORKING AREA */
-/* ============================= */
 
 #workingarea {
   width: 80%;
@@ -62,10 +43,6 @@ html, body {
   margin: 0 auto;
   position: relative;
 }
-
-/* ============================= */
-/* NAVIGATION */
-/* ============================= */
 
 #nav {
   display: flex;
@@ -100,10 +77,6 @@ html, body {
   opacity: 0.6;
 }
 
-/* ============================= */
-/* HERO SECTION */
-/* ============================= */
-
 #hero {
   position: absolute;
   top: 50%;
@@ -113,10 +86,6 @@ html, body {
   justify-content: space-between;
   width: 100%;
 }
-
-/* ============================= */
-/* HERO LEFT */
-/* ============================= */
 
 #heroleft {
   min-width: 50%;
@@ -143,9 +112,6 @@ html, body {
   font-size: 11vw;
 }
 
-/* ============================= */
-/* BUTTON */
-/* ============================= */
 
 #heroleft button {
   pointer-events: all;
@@ -166,10 +132,6 @@ html, body {
   transform: scale(1.05);
 }
 
-/* ============================= */
-/* HERO RIGHT */
-/* ============================= */
-
 #heroright {
   width: 17%;
   display: flex;
@@ -188,10 +150,6 @@ html, body {
 #heroright p:nth-child(3) {
   margin-bottom: 80px;
 }
-
-/* ============================= */
-/* IMAGE BOX */
-/* ============================= */
 
 #heroright #imagediv {
   width: 100%;
